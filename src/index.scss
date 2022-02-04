@@ -1,0 +1,145 @@
+$primary: #D55C20;
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: #dee9ff;
+  background: url('./img/altimetrik-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.form-button button {
+  color: white;
+}
+
+.form-control {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background: transparent !important;
+}
+
+.justify-content-between.form-button button {
+  border-radius: 30px !important;
+  padding: 10px 30px !important;
+  font-size: 18px;
+  font-weight: bold;
+  //background-color: #5791ff !important;
+  border: none;
+  color: white !important;
+  margin-top: 20px;
+}
+
+// .justify-content-center button {
+//   font-size: 29px;
+// }
+
+.card {
+  //background: transparent;
+  border-radius: 30px !important;
+  box-shadow: 0 4px 8px 0;
+  width: 100%;
+  border: 1px solid;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.navbar{
+  font-weight: bold;
+}
+
+.check-box{
+  margin-top: 10px;
+}
+
+@media (min-width: 768px){
+  .col-md-9 {
+      flex: 0 0 auto;
+      width: 70%;
+      margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .col-md-5{
+    width: 100%;
+  }
+}
+
+input:focus{
+	border-color: inherit;
+  -webkit-box-shadow: none;
+	box-shadow: none;
+}
+.form-check-label {
+  color: none !important;
+}
+
+.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label {
+  color: black !important;
+}
+.was-validated .form-control:valid, .form-control.is-valid {
+  border-color: #dc3545;
+}
+
+@media (max-width: 992px){
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    max-height: 100%;
+}
+}
+
+.invalid-feedback{
+  margin-left: 20px;
+}
+.was-validated .form-check-input:valid:checked, .form-check-input.is-valid:checked {
+  background-color: #dc3545;
+}
+
+@media screen and (max-width: 990px) {
+.form-label {
+  margin-bottom: 0.5rem;
+  font-size: 30px;
+}
+.form-control {
+  font-size: 25px;
+}
+.form-check {
+  font-size: 24px;
+}
+.text-center {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 3rem;
+}
+}
+
+.navbar-dark .navbar-toggler {
+  font-size: 50px;
+}
+
+.react-datetime-picker__wrapper {
+  border: none !important;
+}
+
+.input-group-text {
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+
+.btn-secondary {
+  background-color: #D55C20 !important;
+  border-color: #D55C20 !important;
+  font-weight: bold !important;
+  border-radius: 20px !important;
+}
+
+button.btn.btn-primary {
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 20px !important;
+}

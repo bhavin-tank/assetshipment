@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/Users/bsuthar/CodeBase/Calibo/templates/dev2/react17_0_2/react17.0.2-template-1.0/src/test/home.test.js">
+        <testCase name="&lt;Home /&gt; renders &lt;Home /&gt; component in root" duration="88"/>
+    </file>
+</testExecutions>
